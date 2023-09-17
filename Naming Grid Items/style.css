@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+
+  }
+
+  :root {
+    --background: conic-gradient(
+              rgba(255, 0, 0, 0.7),
+              rgba(255, 255, 0, 0.5),
+              rgba(0, 255, 0, 0.7),
+              rgba(0, 255, 255, 0.5),
+              rgba(0, 0, 255, 0.7),
+              rgba(255, 0, 0, 0.7)
+              );
+
+    --white: rgba(255, 255, 255, 0.3);
+  }
+
+.container {
+  border: .5px solid;
+  margin: 15px;
+  padding: 8px;
+  /* width: 0; */
+  height: 500px;
+  background: var(--background);
+
+  /* justify-content: start; */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+
+  /* align-content: start; */
+  /* align-content: center; */
+  /* align-content: end; */
+  /* align-content: space-evenly; */
+  /* align-content: space-around; */
+  /* align-content: space-between; */
+}
+
+
+
+div {
+  border: .5px solid;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 20px;
+
+  text-align: center;
+  font-size: 30px;
+  background: var(--white);
+
+}
